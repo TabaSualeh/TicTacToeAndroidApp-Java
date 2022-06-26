@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#040303"
+    tools:context=".Menu">
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:fontFamily="@font/alegreya"
+        android:text="@string/menu"
+        android:textAlignment="center"
+        android:textColor="#F1CF06"
+        android:textSize="48sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.055"
+        android:gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:text="@string/one"
+        android:textColor="#F62C2C"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerOne"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.13999999"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp" />
+
+    <EditText
+        android:id="@+id/playerOne"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
+        android:textColor="#E3D5D5"
+        android:textColorHint="#A34E5049"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.116"
+        tools:ignore="DuplicateSpeakableTextCheck"
+        android:layout_marginRight="3dp" />
+
+    <EditText
+        android:id="@+id/playerTwo"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="3dp"
+        android:ems="10"
+        android:hint="@string/hint"
+        android:inputType="textPersonName"
+        android:textColor="#E3D7D7"
+        android:textColorHint="#A34E5049"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/playerOne"
+        app:layout_constraintVertical_bias="0.13"
+        android:layout_marginRight="3dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="30dp"
+        android:gravity="center"
+        android:text="@string/two"
+        android:textColor="#1205C5"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/playerTwo"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.13"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="30dp" />
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/green_button"
+        android:onClick="submit"
+        android:text="@string/submit"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:layout_constraintVertical_bias="0.62" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

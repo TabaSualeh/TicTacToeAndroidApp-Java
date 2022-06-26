@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Tic Tac Toe</string>
+    <string name="heading">Welcome to Tic Tac Toe</string>
+    <string name="grid">Our Main Grid</string>
+    <string name="xturn">X\'s Turn - Tap to Play</string>
+    <string name="oturn">O\'s Turn - Tap to Play</string>
+    <string name="reset">Play Again</string>
+    <string name="exit">Exit</string>
+    <string name="play">Let\'s Play</string>
+    <string name="back">Home</string>
+    <string name="menu">Main Menu</string>
+    <string name="one">Player One ( 0 )</string>
+    <string name="two">Player Two ( X )</string>
+    <string name="submit">Submit</string>
+    <string name="hint">Enter Your Name</string>
+</resources>
