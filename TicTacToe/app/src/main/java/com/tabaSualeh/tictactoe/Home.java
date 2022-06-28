@@ -29,7 +29,7 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.activity_home);
         mAdView = new AdView(this);
         mAdView.setAdSize(AdSize.BANNER);
-        mAdView.setAdUnitId("ca-app-pub-7021946523401765/6405598427");
+        adView.setAdUnitId("ca-app-pub-3940256099942544/6300978111");
         mAdView = findViewById(R.id.adView);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
