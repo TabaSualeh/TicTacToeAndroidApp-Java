@@ -23,8 +23,8 @@ import com.google.android.gms.ads.interstitial.InterstitialAdLoadCallback;
 
 public class MainActivity extends AppCompatActivity {
     private InterstitialAd mInterstitialAd;
-    private String ad1 = "ca-app-pub-7021946523401765/8013004190";
-    private String ad2 = "ca-app-pub-7021946523401765/8499572437";
+    private String ad1 = "ca-app-pub-3940256099942544/1033173712";
+    private String ad2 = "ca-app-pub-3940256099942544/1033173712";
     String PlayerOne;
     String PlayerTwo;
     boolean gameActive = true;
