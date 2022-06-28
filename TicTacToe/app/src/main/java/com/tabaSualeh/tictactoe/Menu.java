@@ -94,7 +94,7 @@ public class Menu extends AppCompatActivity {
 
         AdRequest adRequest = new AdRequest.Builder().build();
 
-        InterstitialAd.load(Menu.this,"ca-app-pub-7021946523401765/9293779355", adRequest,
+        InterstitialAd.load(Menu.this,"ca-app-pub-3940256099942544/1033173712", adRequest,
                 new InterstitialAdLoadCallback() {
                     @Override
                     public void onAdLoaded(@NonNull InterstitialAd interstitialAd) {
